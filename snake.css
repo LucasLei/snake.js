@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+#game {
+    width: 400px;
+    height: 400px;
+    /* background-color: #000; */
+    position: relative;
+    margin-left: 300px;
+    background-image: url("img/1.jpg");
+    background-repeat: no-repeat;
+    background-position: -150px -160px;
+    /* opacity: 0.5; */
+}
+
+#game:hover {
+    /* opacity: 1; */
+}
+
+#game span {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: #000;
+    position: absolute;
+    border-radius: 50%;
+}
+
+#game i {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: #00f;
+    position: absolute;
+    border-radius: 50%;
+}
+
+#score {
+    color: #f00;
+    font-weight: bold;
+    transition: all .5s;
+    position: relative;
+    top: 0px;
+}
+
+#score.change {
+    top: -15px;
+    opacity: 0;
+}
+
+.text {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+}
+
+.text p {
+    line-height: 32px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.text .defen {
+    font-size: 20px;
+    color: #00f;
+}
+
+.text .yongshi {
+    font-size: 20px;
+    color: #96e555;
+}
+
+.text .diff {
+    color: #f00;
+    font-size: 20px;
+}
+
+.text option {
+    line-height: 16px;
+}
+
+.text input {
+    padding: 5px 5px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+h2 {
+    text-align: center;
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
