@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+
+    <!-- 贪吃蛇游戏 -->
+    <div class="text">
+        <p class="defen">得分:<span id="score">0</span></p>
+        <p class="yongshi">用时:<span id="time">0秒</span></p>
+        <p class="diff">难度:
+            <select name="" id="model">
+				<option value="200">新手</option>
+				<option value="100">普通</option>
+				<option value="70">困难</option>
+				<option value="50">大师</option>
+			</select>
+            </span>
+        </p>
+        <p>
+            <input type="button" value="开始游戏" id="startGame">
+        </p>
+    </div>
+    <audio src="audio/score.mp3" id="scoreAudio">不好意思，请更新版本</audio>
+    <audio src="audio/gameover.ogg" id="gameoverAudio">不好意思，请更新版本</audio>
+    <div id="game"></div>
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
